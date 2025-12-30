@@ -1,0 +1,10 @@
+.navbar {
+    height: 70px;
+    line-height: 70px;
+}
+
+.navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
