@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-[90%] mx-auto min-h-screen">
+    <div className="w-[90%] mx-auto min-h-screen bg-bg text-text">
       <Navbar />
       <header data-aos="zoom-in" className="my-14 ml-12 md:mt-24 mr-0 md:mb-48 md:ml-28 md:text-left">
         <h1 className="text-white text-3xl md:text-5xl">UI & UX LAB</h1>

@@ -10,7 +10,7 @@ const page = () => {
         { name: "Accent Soft", class: "bg-accent-soft" },
     ];
     return (
-        <div className="min-h-screen bg-bg text-text p-10">
+        <div className="min-h-screen p-10">
             <h1 className="text-3xl font-semibold mb-8">Color Palette</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {colors.map((color) => (
